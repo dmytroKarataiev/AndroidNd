@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res/com.example.android.sunshine.app"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.android.sunshine.app.LocationEditTextPreference
+        custom:minLength="3"
+        android:key="@string/pref_location_key"
+        android:title="@string/pref_location_label"
+        android:defaultValue="@string/pref_location_default"
+        android:inputType="text"
+        android:singleLine="true"/>
+
+
+    <SwitchPreference
+        android:switchTextOff="@string/pref_metric_off"
+        android:switchTextOn="@string/pref_metric_on"
+        android:title="@string/pref_metric"
+        android:key="@string/pref_metric_key"
+        android:defaultValue="true" />
+
+    <CheckBoxPreference
+        android:key="@string/notifications_key"
+        android:defaultValue="true"
+        android:title="@string/notifications_title"
+        android:summaryOn="@string/notifications_on"
+        android:summaryOff="@string/notifications_off"/>
+
+    <ListPreference
+        android:defaultValue="@string/pref_img_default"
+        android:dialogTitle="@string/pref_img_title"
+        android:entries="@array/pref_img_entries"
+        android:entryValues="@array/pref_img_values"
+        android:key="@string/pref_img_key"
+        android:title="@string/pref_img_title" />
+
+</PreferenceScreen>
