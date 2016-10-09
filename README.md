@@ -1,14 +1,17 @@
 # Projects from the Udacity's Android Nanodegree 
-I've finished it in April'16 and decided to make 1 dedicated repository for all the projects, except for those, which became a fully finctional applications.
+I've finished it in April'16 and decided to make 1 dedicated repository for all the projects, except for those, which became fully finctional applications.
 
 ## Projects and Short Description
 1. [My Applications Portfolio](/Portfolio) - list of apps for the ND (databinding, basic UI, event listeners).
-2. [Popular Movies](https://github.com/dmytroKarataiev/PopularMovies) - client to the Movies DB site (RxJava, SQLite, Content Provider).
+2. [Movie DB](https://github.com/dmytroKarataiev/PopularMovies) - client to the Movies DB site (RxJava, SQLite, Content Provider).
 3. [Super Duo: Book Scanner, Football Scores](/SuperDuo) - made two applications production ready (error-solving, accessibility features, added functionality, Google Vision API (MultiDetector, Scanner), CollectionWidget, Content Providers, JobScheduler).
 4. [Build It Bigger](/BuildIt) - app which retrieves jokes from Google Cloud Endpoints module and displays them via an Activity from the Android Library (Google Ads API, GCE, Tests).
 5. [XYZ Reader - make material](/Reader) - redesigned the app to follow Material Design guidelines (Shared Transitions, Content Provider, Loaders, Palette).
 6. [Weather app and a WatchFace](/Sunshine) - weather app and a watchface (SyncAdapter, Wearables APIs, Notifications, Content Provider, Services).
-7. [Capstone - Earthquake Survival]() - earthquake tracking application (RxJava, SQLite, Content Provider, Sync Adapter).
+7. [Capstone - Earthquake Survival](https://github.com/dmytroKarataiev/EarthquakeSurvival) - earthquake tracking application (RxJava, SQLite, Content Provider, Sync Adapter).
+
+## Certificate
+[Android Nanodegree Certificate](certificate.pdf)
 
 License
 -------
